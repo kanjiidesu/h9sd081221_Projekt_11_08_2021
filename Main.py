@@ -1,6 +1,6 @@
 from tkinter import *
 import tkinter.messagebox
-
+# Just adding a comment
 import Function
 
 root = Tk()
@@ -14,7 +14,7 @@ def CloseProgram():
 
 def UpdateCounter():
     CurrentCount = int(CurrentCountText.get())
-    CurrentCount += 2
+    CurrentCount += 1
     CurrentCountText.set(str(CurrentCount))
 
     CurrentFunctionText.set(str(Function.AddNumbers(CurrentCount, CurrentCount)))
